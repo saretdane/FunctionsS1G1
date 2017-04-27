@@ -33,5 +33,6 @@ void printGroupMemberNames() {
 	printf("Name1\n ");
 	printf("Name2\n ");
 	printf("Name3\n ");
+	printf("That's it!\n");
 }
 
