@@ -25,12 +25,20 @@ int main(void) {
 
 	return 1;
 }
-
+int subtractAllValues(int myArray[],int n);
+{
+  int sub=0;
+  for(int i=0;i<n;i++)
+  {
+    sub-=myArray[i];
+  }
+	return sub;
+}
 
 
 
 void printGroupMemberNames() {
-	printf("Name1\n ");
+	printf("Dane Saret ");
 	printf("Name2\n ");
 	printf("Name3\n ");
 	printf("That's it!\n");
