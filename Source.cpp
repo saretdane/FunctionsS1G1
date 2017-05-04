@@ -35,12 +35,20 @@ double getAverage(int myArray[],int n);
 	}
 	return sum/n;
 }
-
+int subtractAllValues(int myArray[],int n);
+{
+  int sub=0;
+  for(int i=0;i<n;i++)
+  {
+    sub-=myArray[i];
+  }
+	return sub;
+}
 
 
 void printGroupMemberNames() {
 	printf("sreylaut Chhom\n ");
-	printf("Name2\n ");
+	printf("Dane Saret\n ");
 	printf("Name3\n ");
 	printf("That's it!\n");
 }
