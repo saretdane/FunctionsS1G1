@@ -39,7 +39,7 @@ double getAverage(int myArray[],int n);
 
 
 void printGroupMemberNames() {
-	printf("Name1\n ");
+	printf("sreylaut Chhom\n ");
 	printf("Name2\n ");
 	printf("Name3\n ");
 	printf("That's it!\n");
