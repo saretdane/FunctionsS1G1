@@ -36,11 +36,18 @@ double getAverage(int myArray[],int n);
 	return sum/n;
 }
 
+void printAsChars(int myArray[],int n);
+{
 
+  for(int i=0;i<n;i++)
+  {
+    print("%c",myArray[i]);
+  }
+}
 
 void printGroupMemberNames() {
 	printf("sreylaut Chhom\n ");
-	printf("Name2\n ");
+	printf("Lihuy Tang\n ");
 	printf("Name3\n ");
 	printf("That's it!\n");
 }
