@@ -26,7 +26,7 @@ int main(void) {
 	return 1;
 }
 
-double getAverage(int myArray[],int n);
+double getAverage(int myArray[],int n);//updated by Srey Laut Chhom
 {
 	int sum=0;
 	for(int i=0;i<n;i++)
